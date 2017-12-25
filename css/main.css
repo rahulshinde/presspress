@@ -1,0 +1,213 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* !!! CSS RESET !!! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Colors */
+@-webkit-keyframes position_change {
+  0% {
+    transform: translate(0, 0) rotate(0deg); }
+  24% {
+    transform: translate(95vw, 0) rotate(0deg); }
+  25% {
+    transform: translate(95vw, 0) rotate(90deg); }
+  49% {
+    transform: translate(95vw, 87vh) rotate(90deg); }
+  50% {
+    transform: translate(95vw, 87vh) rotate(180deg); }
+  74% {
+    transform: translate(0, calc(87vh)) rotate(180deg); }
+  75% {
+    transform: translate(0, calc(87vh)) rotate(270deg); }
+  99% {
+    transform: translate(0, 0) rotate(270deg); }
+  100% {
+    transform: translate(0, 0) rotate(360deg); } }
+@keyframes position_change {
+  0% {
+    transform: translate(0, 0) rotate(0deg); }
+  24% {
+    transform: translate(95vw, 0) rotate(0deg); }
+  25% {
+    transform: translate(95vw, 0) rotate(90deg); }
+  49% {
+    transform: translate(95vw, 87vh) rotate(90deg); }
+  50% {
+    transform: translate(95vw, 87vh) rotate(180deg); }
+  74% {
+    transform: translate(0, calc(87vh)) rotate(180deg); }
+  75% {
+    transform: translate(0, calc(87vh)) rotate(270deg); }
+  99% {
+    transform: translate(0, 0) rotate(270deg); }
+  100% {
+    transform: translate(0, 0) rotate(360deg); } }
+#site {
+  font-family: 'Crimson Text', serif;
+  padding: 4rem; }
+  #site header {
+    font-size: 6vw;
+    color: #000099; }
+    #site header span {
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0; }
+      #site header span:nth-child(1) {
+        -webkit-animation: position_change 20s 6s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 6s linear infinite; }
+      #site header span:nth-child(2) {
+        -webkit-animation: position_change 20s 5.25s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 5.25s linear infinite; }
+      #site header span:nth-child(3) {
+        -webkit-animation: position_change 20s 4.75s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 4.75s linear infinite; }
+      #site header span:nth-child(4) {
+        -webkit-animation: position_change 20s 4s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 4s linear infinite; }
+      #site header span:nth-child(5) {
+        -webkit-animation: position_change 20s 3.25s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 3.25s linear infinite; }
+      #site header span:nth-child(6) {
+        -webkit-animation: position_change 20s 2.75s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 2.75s linear infinite; }
+      #site header span:nth-child(7) {
+        -webkit-animation: position_change 20s 2s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 2s linear infinite; }
+      #site header span:nth-child(8) {
+        -webkit-animation: position_change 20s 1.25s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 1.25s linear infinite; }
+      #site header span:nth-child(9) {
+        -webkit-animation: position_change 20s 0.75s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s 0.75s linear infinite; }
+      #site header span:nth-child(10) {
+        -webkit-animation: position_change 20s linear infinite;
+        /* Safari 4+ */
+        animation: position_change 20s linear infinite; }
+  #site .text {
+    width: 20rem;
+    color: #000099;
+    margin-bottom: 1rem; }
+    #site .text h2 {
+      text-decoration: underline;
+      margin-bottom: 1em; }
+    #site .text p, #site .text h2 {
+      font-size: 1rem; }
+    #site .text p {
+      margin-bottom: 1rem; }
+    #site .text li {
+      position: relative;
+      padding-left: 1rem; }
+      #site .text li.no_star {
+        padding-left: 0; }
+        #site .text li.no_star:after {
+          display: none; }
+      #site .text li:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1rem;
+        height: 1rem;
+        background-image: url(/images/star.svg);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat; }
+  #site #mission p {
+    font-size: 1rem; }
+  #site .main-carousel {
+    position: fixed;
+    top: 4rem;
+    right: 4rem;
+    width: 50%;
+    height: 80vh;
+    margin-right: 0;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    /* arrow color */ }
+    #site .main-carousel img {
+      height: 100%;
+      width: auto; }
+    #site .main-carousel .flickity-prev-next-button {
+      width: 5rem;
+      height: 5rem;
+      background: transparent; }
+    #site .main-carousel .flickity-prev-next-button:hover {
+      background: transparent; }
+    #site .main-carousel .flickity-prev-next-button .arrow {
+      fill: pink;
+      stroke-width: 1; }
+    #site .main-carousel .flickity-prev-next-button.no-svg {
+      color: pink; }
+    #site .main-carousel .flickity-prev-next-button:disabled {
+      opacity: 0; }
+  #site footer {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0; }
+    #site footer h2 {
+      font-size: 2rem;
+      color: #000099;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=main.css.map */
