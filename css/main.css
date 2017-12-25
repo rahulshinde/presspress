@@ -93,7 +93,6 @@ table {
   100% {
     transform: translate(0, 0) rotate(360deg); } }
 #site {
-  background-color: pink;
   font-family: 'Crimson Text', serif;
   padding: 4rem; }
   #site header {
