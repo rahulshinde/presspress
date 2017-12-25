@@ -144,7 +144,7 @@ table {
         /* Safari 4+ */
         animation: position_change 20s linear infinite; }
   #site .text {
-    width: 20rem;
+    width: 36%;
     color: #000099;
     margin-bottom: 1rem; }
     #site .text h2 {
@@ -202,9 +202,12 @@ table {
       opacity: 0; }
   #site footer {
     width: 100%;
+    left: 0;
     position: fixed;
     text-align: center;
-    bottom: 0; }
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid #000099; }
     #site footer h2 {
       font-size: 2rem;
       color: #000099;
