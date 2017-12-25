@@ -94,10 +94,11 @@ table {
     transform: translate(0, 0) rotate(360deg); } }
 #site {
   font-family: 'Crimson Text', serif;
-  padding: 4rem; }
+  padding: 4rem;
+  background-color: #fff; }
   #site header {
     font-size: 6vw;
-    color: #000099; }
+    color: yellow; }
     #site header span {
       position: fixed;
       z-index: 1000;
@@ -145,13 +146,13 @@ table {
         animation: position_change 20s linear infinite; }
   #site .text {
     width: 36%;
-    color: #000099;
+    color: red;
     margin-bottom: 1rem; }
     #site .text h2 {
       text-decoration: underline;
       margin-bottom: 1em; }
     #site .text p, #site .text h2 {
-      font-size: 1rem; }
+      font-size: 1.5rem; }
     #site .text p {
       margin-bottom: 1rem; }
     #site .text li {
@@ -172,8 +173,6 @@ table {
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat; }
-  #site #mission p {
-    font-size: 1rem; }
   #site .main-carousel {
     position: fixed;
     top: 4rem;
@@ -194,10 +193,10 @@ table {
     #site .main-carousel .flickity-prev-next-button:hover {
       background: transparent; }
     #site .main-carousel .flickity-prev-next-button .arrow {
-      fill: pink;
+      fill: red;
       stroke-width: 1; }
     #site .main-carousel .flickity-prev-next-button.no-svg {
-      color: pink; }
+      color: red; }
     #site .main-carousel .flickity-prev-next-button:disabled {
       opacity: 0; }
   #site footer {
@@ -207,10 +206,10 @@ table {
     text-align: center;
     bottom: 0;
     background-color: #fff;
-    border-top: 1px solid #000099; }
+    border-top: 1px solid red; }
     #site footer h2 {
       font-size: 2rem;
-      color: #000099;
+      color: red;
       text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
