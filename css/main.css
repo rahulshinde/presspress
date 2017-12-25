@@ -168,7 +168,7 @@ table {
         top: 0;
         width: 1rem;
         height: 1rem;
-        background-image: url(/images/star.svg);
+        background-image: url(../images/star.svg);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat; }
