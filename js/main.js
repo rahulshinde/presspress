@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 openModal = function(){
   $('#modal_container').addClass('show');
-  $('#close_modal').slideToggle();
+  $('#close_modal').slideToggle('right');
 }
 
 closeModal = function(){
