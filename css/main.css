@@ -263,7 +263,7 @@ html {
       position: absolute;
       width: 100%;
       top: 50%;
-      border-bottom: 6px solid #000099; }
+      border-bottom: 6px solid #ffe60e; }
     #site #close_modal:before {
       transform: translateY(-50%) rotate(45deg); }
     #site #close_modal:after {
