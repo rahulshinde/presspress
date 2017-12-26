@@ -10,7 +10,14 @@ $(document).ready(function(){
   $(window).on("load", function() {
     Site.image_height = $('.images').height() - $(window).height();
   })
+
+  $(window).on('resize', resizeHandler);
 })
+
+resizeHandler = function(){
+  Site.image_height = $('.images').height() - $(window).height();
+  Site.document_height = $(document).height() - $(window).height();
+}
 
 openModal = function(){
   $('#modal_container').addClass('show');

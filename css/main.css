@@ -228,7 +228,23 @@ html {
     #site #modal_container.show {
       transform: translateY(0%); }
   #site #open_modal {
-    text-decoration: underline; }
+    position: relative;
+    /*text-decoration: underline;*/
+    margin: -0.5rem 0 3.5rem 0;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg); }
+    #site #open_modal:after {
+      content: '';
+      left: 0;
+      top: -2.8rem;
+      position: absolute;
+      width: 10rem;
+      height: 8.5rem;
+      background-image: url(../images/star.svg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index: -1; }
   #site #open_modal:hover {
     text-decoration: none; }
   #site #close_modal:hover,
