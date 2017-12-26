@@ -94,7 +94,7 @@ table {
     transform: translate(0, 0) rotate(360deg); } }
 #site {
   font-family: 'Crimson Text', serif;
-  padding: 4rem;
+  padding: 2rem 2rem 4rem 2rem;
   background-color: #fff; }
   #site header {
     font-size: 6vw;
@@ -145,14 +145,14 @@ table {
         /* Safari 4+ */
         animation: position_change 20s linear infinite; }
   #site .text {
-    width: 36%;
+    width: 60%;
     color: red;
     margin-bottom: 1rem; }
     #site .text h2 {
       text-decoration: underline;
       margin-bottom: 1em; }
     #site .text p, #site .text h2 {
-      font-size: 1.5rem; }
+      font-size: 2.3rem; }
     #site .text p {
       margin-bottom: 1rem; }
     #site .text li {
@@ -173,32 +173,18 @@ table {
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat; }
-  #site .main-carousel {
+  #site .images {
     position: fixed;
-    top: 4rem;
-    right: 4rem;
-    width: 50%;
-    height: 80vh;
-    margin-right: 0;
-    overflow: hidden;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-    /* arrow color */ }
-    #site .main-carousel img {
-      height: 100%;
-      width: auto; }
-    #site .main-carousel .flickity-prev-next-button {
-      width: 5rem;
-      height: 5rem;
-      background: transparent; }
-    #site .main-carousel .flickity-prev-next-button:hover {
-      background: transparent; }
-    #site .main-carousel .flickity-prev-next-button .arrow {
-      fill: red;
-      stroke-width: 1; }
-    #site .main-carousel .flickity-prev-next-button.no-svg {
-      color: red; }
-    #site .main-carousel .flickity-prev-next-button:disabled {
-      opacity: 0; }
+    top: 2rem;
+    right: 2rem;
+    width: 33%;
+    height: auto; }
+    #site .images #spacer {
+      height: 6rem; }
+    #site .images img {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem; }
   #site footer {
     width: 100%;
     left: 0;
@@ -208,7 +194,7 @@ table {
     background-color: #fff;
     border-top: 1px solid red; }
     #site footer h2 {
-      font-size: 2rem;
+      font-size: 3rem;
       color: red;
       text-transform: uppercase; }
 
