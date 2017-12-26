@@ -146,7 +146,7 @@ table {
         animation: position_change 20s linear infinite; }
   #site .text {
     width: 60%;
-    color: red;
+    color: #000099;
     margin-bottom: 1rem; }
     #site .text h2 {
       text-decoration: underline;
@@ -192,10 +192,10 @@ table {
     text-align: center;
     bottom: 0;
     background-color: #fff;
-    border-top: 1px solid red; }
+    border-top: 1px solid #000099; }
     #site footer h2 {
       font-size: 3rem;
-      color: red;
+      color: #000099;
       text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
