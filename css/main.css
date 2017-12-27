@@ -123,6 +123,8 @@ html {
   font-family: 'Crimson Text', serif;
   padding: 2rem 2rem 4rem 2rem;
   background-color: #fff; }
+  #site i {
+    font-style: italic; }
   #site header {
     font-size: 4rem;
     color: yellow; }
@@ -280,6 +282,11 @@ html {
     padding: 15px;
     margin: 2rem 4rem;
     color: #ffcaca; }
+    #site .modal a:link,
+    #site .modal a:visited {
+      color: #ffcaca; }
+    #site .modal a:hover {
+      text-decoration: none; }
     #site .modal h1 {
       margin-bottom: 1em; }
     #site .modal h2 {
