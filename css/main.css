@@ -882,15 +882,18 @@ html {
   html {
     font-size: 11px; }
 
-  #site header {
-    display: none; }
-  #site footer h2 {
-    font-size: 2rem; }
-  #site .modal {
-    font-size: 1.6rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    width: 90% !important;
-    height: auto !important; } }
+  #site {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+    #site header {
+      display: none; }
+    #site footer h2 {
+      font-size: 2rem; }
+    #site .modal {
+      font-size: 1.6rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      width: 90% !important;
+      height: auto !important; } }
 
 /*# sourceMappingURL=main.css.map */
