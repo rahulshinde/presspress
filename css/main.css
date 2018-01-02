@@ -880,7 +880,7 @@ html {
         shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%); } }
 @media screen and (max-width: 450px) {
   html {
-    font-size: 12px; }
+    font-size: 11px; }
 
   #site header {
     display: none; }
