@@ -216,7 +216,7 @@ html {
         background-repeat: no-repeat; }
   #site #modal_container {
     position: fixed;
-    transform: translateY(103%);
+    transform: translateY(110%);
     -webkit-overflow-scrolling: touch;
     overflow-scrolling: touch;
     top: 0;
